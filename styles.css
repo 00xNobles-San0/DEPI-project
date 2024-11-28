@@ -1,0 +1,101 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* Use a modern font */
+    background-color: #e8f0f2;
+    /* Soft background color */
+    color: #333;
+    /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Center container vertically */
+}
+
+.container {
+    width: 90%;
+    /* Responsive width */
+    max-width: 400px;
+    /* Max width for larger screens */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background for the container */
+    border: 1px solid #ccc;
+    /* Light border for separation */
+    border-radius: 10px;
+    /* Softer corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+h2 {
+    text-align: center;
+    color: #4a4a4a;
+    /* Slightly softer dark color */
+    margin-bottom: 20px;
+    /* Space below heading */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    /* Softer label color */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    /* More padding for input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Softer corners */
+    font-size: 16px;
+    /* Increase font size for better readability */
+    transition: border-color 0.3s;
+    /* Smooth transition for focus effect */
+}
+
+.input-group input:focus {
+    border-color: #4CAF50;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    /* More padding for button */
+    background-color: #5cb85c;
+    /* Softer green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Softer corners */
+    cursor: pointer;
+    font-size: 16px;
+    /* Increase font size */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+    /* Darker green on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    /* Space above paragraph */
+    color: #777;
+    /* Softer color for less emphasis */
+}
